@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Can you tell an IDF military name from a Brazilian telenovela?">
+
+    <title>IDF or Telenovela?</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <header class="site-header">
+            <h1>IDF or Telenovela?</h1>
+            <p class="subtitle">
+                Military operation, vehicle or system — or Brazilian TV drama?
+            </p>
+        </header>
+
+        <section id="game-screen" class="game-card">
+            <div class="progress-row">
+                <span id="round-label">Round 1 of 10</span>
+                <span id="score-label">Score: 0</span>
+            </div>
+
+            <div class="progress-track">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <h2>What do you think?</h2>
+
+            <div class="question-panel">
+                <p id="question-name">Loading...</p>
+            </div>
+
+            <p class="instruction">Choose your answer:</p>
+
+            <div id="answer-buttons" class="answer-buttons">
+                <button id="idf-button" class="answer-button idf-button">
+                    IDF
+                </button>
+
+                <button id="telenovela-button"
+                        class="answer-button telenovela-button">
+                    Telenovela
+                </button>
+            </div>
+
+            <section id="reveal-panel" class="reveal-panel" hidden>
+                <h3 id="result-heading"></h3>
+
+                <img id="reveal-image"
+                     class="reveal-image"
+                     alt="Image illustrating the answer"
+                     hidden>
+
+                <p id="reveal-description"></p>
+
+                <button id="next-button" class="primary-button">
+                    Next question
+                </button>
+            </section>
+        </section>
+
+        <section id="end-screen" class="game-card end-screen" hidden>
+            <h2>Game over!</h2>
+
+            <p id="final-score" class="final-score"></p>
+            <p id="final-message"></p>
+
+            <button id="restart-button" class="primary-button">
+                Play again
+            </button>
+        </section>
+
+        <footer>
+            <p>A game of names, guesses, and unexpected plot twists.</p>
+        </footer>
+    </main>
+</body>
+</html>

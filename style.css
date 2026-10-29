@@ -1,0 +1,253 @@
+
+:root {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 sans-serif;
+    color: #f3f4f6;
+    background: #111827;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 24px 16px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: 680px;
+    margin: auto;
+}
+
+.site-header {
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.site-header h1 {
+    margin: 0 0 12px;
+    font-size: clamp(2rem, 7vw, 3.2rem);
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+}
+
+.subtitle {
+    color: #b8c2d3;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.game-card {
+    padding: clamp(20px, 5vw, 36px);
+    background: #1f2937;
+    border: 1px solid #374151;
+    border-radius: 20px;
+    box-shadow: 0 18px 50px rgb(0 0 0 / 20%);
+}
+
+.progress-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    color: #d1d5db;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.progress-track {
+    width: 100%;
+    height: 7px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #374151;
+    margin-bottom: 32px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background: #60a5fa;
+    transition: width 250ms ease;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.35rem;
+    margin: 0 0 20px;
+}
+
+.question-panel {
+    display: grid;
+    place-items: center;
+    min-height: 150px;
+    padding: 24px;
+    border-radius: 14px;
+    background: #111827;
+    border: 1px solid #374151;
+}
+
+#question-name {
+    margin: 0;
+    text-align: center;
+    overflow-wrap: anywhere;
+    font-size: clamp(1.8rem, 7vw, 2.8rem);
+    font-weight: 750;
+    letter-spacing: -0.8px;
+}
+
+.instruction {
+    color: #cbd5e1;
+    text-align: center;
+    margin: 28px 0 14px;
+}
+
+.answer-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.answer-button,
+.primary-button {
+    min-height: 54px;
+    border: 0;
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 150ms ease, filter 150ms ease;
+}
+
+.answer-button:hover:not(:disabled),
+.primary-button:hover {
+    filter: brightness(1.12);
+    transform: translateY(-2px);
+}
+
+.answer-button:focus-visible,
+.primary-button:focus-visible {
+    outline: 3px solid #f9fafb;
+    outline-offset: 3px;
+}
+
+.answer-button:disabled {
+    cursor: default;
+    opacity: 0.65;
+}
+
+.idf-button {
+    color: white;
+    background: #2563eb;
+}
+
+.telenovela-button {
+    color: white;
+    background: #be185d;
+}
+
+.reveal-panel {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid #374151;
+    animation: appear 250ms ease;
+}
+
+.reveal-panel h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0 0 18px;
+}
+
+.reveal-panel p {
+    line-height: 1.7;
+    color: #d1d5db;
+}
+
+.reveal-image {
+    display: block;
+    width: 100%;
+    max-height: 340px;
+    object-fit: contain;
+    border-radius: 12px;
+    background: #111827;
+    margin: 0 auto 20px;
+}
+
+.primary-button {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    color: #111827;
+    background: #f9fafb;
+}
+
+.end-screen {
+    text-align: center;
+}
+
+.final-score {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.end-screen p {
+    line-height: 1.6;
+    color: #d1d5db;
+}
+
+footer {
+    margin-top: 24px;
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.85rem;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        padding: 16px 10px;
+    }
+
+    .answer-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .progress-row {
+        font-size: 0.82rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}

@@ -2,80 +2,80 @@
   {
     "id": 1,
     "name": {
-      "en": "Name 1",
-      "pt-BR": "Nome 1"
+      "en": "Summer Rains",
+      "pt-BR": "Chuvas de Verão"
     },
     "answer": "IDF",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry."
+      "en": "Operation Summer Rains was a series of battles between Palestinian militants and the Israel Defense Forces (IDF) during summer 2006, prompted by the capture of Israeli soldier Gilad Shalit by Palestinian militants on 25 June 2006.",
+      "pt-BR": "A Operação Chuvas de Verão foi parte de uma série de conflitos entre as Forças de Defesa de Israel e militantes palestinos na Faixa de Gaza, realizados a partir de 28 de junho de 2006."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/chuvas_de_verao.webp"
   },
   {
     "id": 2,
     "name": {
-      "en": "Name 2",
-      "pt-BR": "Nome 2"
+      "en": "Moses",
+      "pt-BR": "Moisés"
     },
-    "answer": "Telenovela",
+    "answer": "IDF",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
+      "en": "Operation Moses was the covert evacuation of Ethiopian Jews from Sudan during a civil war that caused a famine in 1984.",
+      "pt-BR": "A Operação Moisés refere-se à evacuação secreta de judeus etíopes que fugiram para o Sudão durante uma crise de fome em 1984."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/moises.jpg"
   },
   {
     "id": 3,
     "name": {
-      "en": "Name 3",
-      "pt-BR": "Nome 3"
+      "en": "Iron Dome",
+      "pt-BR": "Domo de Ferro"
     },
     "answer": "IDF",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry."
+      "en": "The Iron Dome is an Israeli mobile all-weather air defense system, developed by Rafael Advanced Defense Systems and Israel Aerospace Industries. The system is designed to intercept and destroy short-range rockets and artillery shells fired from distances of 4 to 70 kilometres away and whose trajectory would take them to an Israeli populated area.",
+      "pt-BR": "O Domo de Ferro é um sistema de defesa antiaérea desenvolvido pela Rafael Advanced Defense Systems, uma empresa de Israel. O sistema foi projetado para interceptar e destruir mísseis de curto alcance e bombas de artilharia disparadas de distâncias de 4 a 70 quilômetros e cuja trajetória seja áreas povoadas."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/domo_de_ferro.jpg"
   },
   {
     "id": 4,
     "name": {
-      "en": "Name 4",
-      "pt-BR": "Nome 4"
+      "en": "David's Sling",
+      "pt-BR": "Funda de Davi"
     },
-    "answer": "Telenovela",
+    "answer": "IDF",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
+      "en": "David's Sling is an Israel Defense Forces military system jointly developed by the Israeli defense contractor Rafael Advanced Defense Systems and the American defense contractor Raytheon, that became operational in 2017. It is designed to intercept enemy planes, drones, tactical ballistic missiles, medium to long-range rockets and cruise missiles, fired at ranges from 40 to 300 km.",
+      "pt-BR": "Funda de Davi (em hebraico: קלע דוד) é um sistema militar das Forças de Defesa de Israel desenvolvido em conjunto pela empresa de defesa israelense Rafael Advanced Defense Systems e pela empresa de defesa estadunidense Raytheon, e tornou-se operacional em 2017. Ele é projetado para interceptar aviões inimigos, drones, mísseis balísticos táticos, foguetes de médio e longo alcance e mísseis de cruzeiro, disparados em alcances de 40 a 300 quilômetros."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/funda_de_davi.jpg"
   },
   {
     "id": 5,
     "name": {
-      "en": "Name 5",
-      "pt-BR": "Nome 5"
+      "en": "King David",
+      "pt-BR": "Rei Davi"
     },
     "answer": "Telenovela",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
+      "en": "King David is a Brazilian miniseries produced and broadcast by RecordTV. It premiered on January 12, 2012, and ended on May 3, 2012. The series is based on the Books of Samuel and a part of I Kings.",
+      "pt-BR": "Rei Davi é uma minissérie bíblica brasileira, produzida e exibida pela RecordTV, de 24 de janeiro de 2012 a 3 de maio de 2012 em 30 capítulos. A minissérie é uma livre adaptação dos livros I Samuel, II Samuel e parte de I Reis."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/rei_davi.jpg"
   },
   {
     "id": 6,
     "name": {
-      "en": "Name 6",
-      "pt-BR": "Nome 6"
+      "en": "Genesis",
+      "pt-BR": "Gênesis"
     },
-    "answer": "IDF",
+    "answer": "Telenovela",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry."
+      "en": "Genesis is a Brazilian telenovela that aired on Record from January 19 to November 22, 2021, spanning 220 episodes. The series is based on the biblical Book of Genesis and recounts the story of the creation of the world, the first man (Adam) and the first woman (Eve), the Great Flood, the Tower of Babel, and the journey of Abraham, concluding with the period of the Hebrew people's enslavement in Egypt.",
+      "pt-BR": "Gênesis é uma telenovela brasileira exibida pela Record de 19 de janeiro a 22 de novembro de 2021, em 220 capítulos. A novela é baseada no livro bíblico Gênesis e conta a história da criação do mundo, o primeiro homem, Adão, e a primeira mulher, Eva; o grande dilúvio; a Torre de Babel, Jornada de Abraão, e chegando até o período de escravidão do povo hebreu no Egito."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/genesis.jpg"
   },
   {
     "id": 7,

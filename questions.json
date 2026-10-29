@@ -1,0 +1,108 @@
+
+[
+  {
+    "id": 1,
+    "name": "Name 1",
+    "answer": "IDF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
+    "image": "images/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Name 2",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Name 3",
+    "answer": "IDF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
+    "image": "images/image3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Name 4",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Name 5",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Name 6",
+    "answer": "IDF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
+    "image": "images/image6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Name 7",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Name 8",
+    "answer": "IDF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
+    "image": "images/image8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Name 9",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Name 10",
+    "answer": "IDF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
+    "image": "images/image10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Name 11",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Name 12",
+    "answer": "IDF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
+    "image": "images/image12.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Name 13",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image13.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Name 14",
+    "answer": "IDF",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
+    "image": "images/image14.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Name 15",
+    "answer": "Telenovela",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
+    "image": "images/image15.jpg"
+  }
+]

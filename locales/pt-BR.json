@@ -1,7 +1,7 @@
 
 {
-  "gameTitle": "IDF ou Novela?",
-  "subtitle": "Operação militar, veículo ou sistema — ou novela brasileira?",
+  "gameTitle": "IDF ou Novela da Record?",
+  "subtitle": "Operação militar, veículo ou sistema de Israel — ou novela da Record?",
   "roundLabel": "Rodada {current} de {total}",
   "scoreLabel": "Pontos: {score}",
   "questionHeading": "Qual é o seu palpite?",
@@ -9,7 +9,7 @@
   "answerIdf": "IDF",
   "answerTelenovela": "Novela",
   "loadingQuestions": "Carregando perguntas...",
-  "loadingError": "Não foi possível carregar as perguntas.",
+  "loadingError": "Falha ao carregar as perguntas.",
   "loadingErrorHelp": "Execute o jogo em um servidor web local ou no GitHub Pages e verifique se o arquivo questions.json está disponível.",
   "correct": "Acertou!",
   "incorrect": "Não foi dessa vez! A resposta é {answer}.",

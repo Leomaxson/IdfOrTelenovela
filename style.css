@@ -251,3 +251,45 @@ footer {
         transition-duration: 0.01ms !important;
     }
 }
+
+.language-selector {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: #9ca3af;
+}
+
+.language-selector button {
+    padding: 6px 4px;
+    border: none;
+    background: transparent;
+    color: #9ca3af;
+    font: inherit;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.language-selector button[aria-pressed="true"] {
+    color: #f9fafb;
+    font-weight: 700;
+}
+
+.language-selector button:hover {
+    color: #60a5fa;
+}
+
+.language-selector button:focus-visible {
+    outline: 2px solid #60a5fa;
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    .language-selector {
+        top: 8px;
+        right: 12px;
+    }
+}

@@ -114,6 +114,14 @@ function shuffle(array) {
     return result;
 }
 
+function getLocalizedText(value) {
+    if (typeof value === "string") {
+        return value;
+    }
+
+    return value[language] || value.en || Object.values(value)[0];
+}
+
 async function loadQuestions() {
     idfButton.disabled = true;
     telenovelaButton.disabled = true;
@@ -134,9 +142,9 @@ async function loadQuestions() {
         }
 
         const validQuestions = questions.every(question =>
-            typeof question.name === "string" &&
+            question.name && typeof question.name === "object" &&
             ["IDF", "Telenovela"].includes(question.answer) &&
-            typeof question.description === "string" &&
+            question.description && typeof question.description === "object" &&
             typeof question.image === "string"
         );
 
@@ -186,7 +194,7 @@ function showQuestion() {
     progressBar.style.width =
         `${(currentRound / TOTAL_ROUNDS) * 100}%`;
 
-    questionName.textContent = question.name;
+    questionName.textContent = getLocalizedText(question.name);
 
     revealPanel.hidden = true;
 
@@ -234,7 +242,7 @@ function submitAnswer(answer) {
             )
         });
 
-    revealDescription.textContent = question.description;
+    revealDescription.textContent = getLocalizedText(question.description);
 
     // Reveal the image, using a fallback if the file is missing.
     revealImage.onerror = () => {

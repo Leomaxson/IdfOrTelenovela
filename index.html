@@ -16,47 +16,49 @@
 <body>
     <div class="language-selector" aria-label="Language selector">
         <button type="button" data-lang="en" aria-pressed="true">
-            English 🇬🇧
+            <span data-i18n="languageEnglish">English</span> 🇬🇧
         </button>
         <span aria-hidden="true">|</span>
         <button type="button" data-lang="pt-BR" aria-pressed="false">
-            Português 🇧🇷
+            <span data-i18n="languagePortuguese">Português (Brasil)</span> 🇧🇷
         </button>
     </div>
     <main class="container">
         <header class="site-header">
-            <h1>IDF or Telenovela?</h1>
-            <p class="subtitle">
+            <h1 data-i18n="gameTitle">IDF or Telenovela?</h1>
+            <p class="subtitle" data-i18n="subtitle">
                 Military operation, vehicle or system — or Brazilian TV drama?
             </p>
         </header>
 
         <section id="game-screen" class="game-card">
             <div class="progress-row">
-                <span id="round-label">Round 1 of 10</span>
-                <span id="score-label">Score: 0</span>
+                <span id="round-label" data-i18n="roundLabel"
+                      data-i18n-params='{"current":1,"total":10}'>Round 1 of 10</span>
+                <span id="score-label" data-i18n="scoreLabel"
+                      data-i18n-params='{"score":0}'>Score: 0</span>
             </div>
 
             <div class="progress-track">
                 <div id="progress-bar" class="progress-bar"></div>
             </div>
 
-            <h2>What do you think?</h2>
+            <h2 data-i18n="questionHeading">What do you think?</h2>
 
             <div class="question-panel">
                 <p id="question-name">Loading...</p>
             </div>
 
-            <p class="instruction">Choose your answer:</p>
+            <p class="instruction" data-i18n="instruction">Choose your answer:</p>
 
             <div id="answer-buttons" class="answer-buttons">
                 <button id="idf-button" class="answer-button idf-button">
-                    IDF
+                    <span data-i18n="answerIdf">IDF</span>
                 </button>
 
                 <button id="telenovela-button"
                         class="answer-button telenovela-button">
-                    Telenovela
+                    <span data-i18n="answerTelenovela">Telenovela</span>
                 </button>
             </div>
 
@@ -77,18 +79,18 @@
         </section>
 
         <section id="end-screen" class="game-card end-screen" hidden>
-            <h2>Game over!</h2>
+            <h2 data-i18n="gameOver">Game over!</h2>
 
             <p id="final-score" class="final-score"></p>
             <p id="final-message"></p>
 
             <button id="restart-button" class="primary-button">
-                Play again
+                <span data-i18n="playAgain">Play again</span>
             </button>
         </section>
 
         <footer>
-            <p>A game of names, guesses, and unexpected plot twists.</p>
+            <p data-i18n="footer">A game of names, guesses, and unexpected plot twists.</p>
         </footer>
     </main>
 </body>

@@ -2,6 +2,78 @@
 "use strict";
 
 const TOTAL_ROUNDS = 10;
+const LANGUAGE_STORAGE_KEY = "language";
+const SUPPORTED_LANGUAGES = ["en", "pt-BR"];
+
+let language = getSavedLanguage();
+let translations = {};
+
+function getSavedLanguage() {
+    try {
+        const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+        return SUPPORTED_LANGUAGES.includes(savedLanguage) ? savedLanguage : "en";
+    } catch (error) {
+        return "en";
+    }
+}
+
+function setLanguage(nextLanguage) {
+    if (!SUPPORTED_LANGUAGES.includes(nextLanguage)) {
+        return;
+    }
+
+    language = nextLanguage;
+    document.documentElement.lang = language;
+
+    try {
+        localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+    } catch (error) {
+        // The game can still be used when storage is unavailable.
+    }
+
+    document.querySelectorAll(".language-selector button").forEach(button => {
+        button.setAttribute(
+            "aria-pressed",
+            String(button.dataset.lang === language)
+        );
+    });
+}
+
+function translate(key, parameters = {}) {
+    let text = translations[key] || key;
+
+    Object.entries(parameters).forEach(([name, value]) => {
+        text = text.replace(`{${name}}`, value);
+    });
+
+    return text;
+}
+
+function applyTranslations() {
+    document.querySelectorAll("[data-i18n]").forEach(element => {
+        const parameters = element.dataset.i18nParams
+            ? JSON.parse(element.dataset.i18nParams)
+            : {};
+        element.textContent = translate(element.dataset.i18n, parameters);
+    });
+
+    document.title = translate("gameTitle");
+    document.querySelector(".language-selector").setAttribute(
+        "aria-label",
+        translate("languageLabel")
+    );
+}
+
+async function loadTranslations() {
+    const response = await fetch(`locales/${language}.json`);
+
+    if (!response.ok) {
+        throw new Error(`HTTP error: ${response.status}`);
+    }
+
+    translations = await response.json();
+    applyTranslations();
+}
 
 const gameScreen = document.getElementById("game-screen");
 const endScreen = document.getElementById("end-screen");
@@ -45,7 +117,7 @@ function shuffle(array) {
 async function loadQuestions() {
     idfButton.disabled = true;
     telenovelaButton.disabled = true;
-    questionName.textContent = "Loading questions...";
+    questionName.textContent = translate("loadingQuestions");
 
     try {
         const response = await fetch("questions.json");
@@ -75,12 +147,10 @@ async function loadQuestions() {
         allQuestions = questions;
         startGame();
     } catch (error) {
-        questionName.textContent = "Unable to load questions.";
+        questionName.textContent = translate("loadingError");
 
         const message = document.createElement("p");
-        message.textContent =
-            "Please run the game through a local web server or GitHub Pages, " +
-            "and check that questions.json is available.";
+        message.textContent = translate("loadingErrorHelp");
 
         gameScreen.appendChild(message);
         console.error(error);
@@ -107,9 +177,12 @@ function showQuestion() {
     answered = false;
 
     roundLabel.textContent =
-        `Round ${currentRound + 1} of ${TOTAL_ROUNDS}`;
+        translate("roundLabel", {
+            current: currentRound + 1,
+            total: TOTAL_ROUNDS
+        });
 
-    scoreLabel.textContent = `Score: ${score}`;
+    scoreLabel.textContent = translate("scoreLabel", { score });
     progressBar.style.width =
         `${(currentRound / TOTAL_ROUNDS) * 100}%`;
 
@@ -128,10 +201,9 @@ function showQuestion() {
         button.classList.remove("correct", "incorrect");
     });
 
-    nextButton.textContent =
-        currentRound === TOTAL_ROUNDS - 1
-            ? "See final score"
-            : "Next question";
+    nextButton.textContent = translate(
+        currentRound === TOTAL_ROUNDS - 1 ? "seeFinalScore" : "nextQuestion"
+    );
 }
 
 function submitAnswer(answer) {
@@ -148,15 +220,19 @@ function submitAnswer(answer) {
         score++;
     }
 
-    scoreLabel.textContent = `Score: ${score}`;
+    scoreLabel.textContent = translate("scoreLabel", { score });
 
     answerButtons.forEach(button => {
         button.disabled = true;
     });
 
     resultHeading.textContent = isCorrect
-        ? "Correct!"
-        : `Not quite! The answer is ${question.answer}.`;
+        ? translate("correct")
+        : translate("incorrect", {
+            answer: translate(
+                question.answer === "IDF" ? "answerIdf" : "answerTelenovela"
+            )
+        });
 
     revealDescription.textContent = question.description;
 
@@ -197,20 +273,19 @@ function showFinalScore() {
     gameScreen.hidden = true;
     endScreen.hidden = false;
 
-    finalScore.textContent = `${score} / ${TOTAL_ROUNDS}`;
+    finalScore.textContent = translate("finalScore", {
+        score,
+        total: TOTAL_ROUNDS
+    });
 
     if (score === TOTAL_ROUNDS) {
-        finalMessage.textContent =
-            "Perfect score! You can distinguish military names from TV drama.";
+        finalMessage.textContent = translate("perfectScore");
     } else if (score >= 7) {
-        finalMessage.textContent =
-            "Impressive! You know your military names and telenovelas.";
+        finalMessage.textContent = translate("goodScore");
     } else if (score >= 4) {
-        finalMessage.textContent =
-            "Not bad! Some of those names are surprisingly convincing.";
+        finalMessage.textContent = translate("averageScore");
     } else {
-        finalMessage.textContent =
-            "Plot twist! Better luck next time.";
+        finalMessage.textContent = translate("lowScore");
     }
 }
 
@@ -223,4 +298,19 @@ telenovelaButton.addEventListener("click", () =>
 nextButton.addEventListener("click", nextQuestion);
 restartButton.addEventListener("click", startGame);
 
-loadQuestions();
+document.querySelectorAll(".language-selector button").forEach(button => {
+    button.addEventListener("click", async () => {
+        setLanguage(button.dataset.lang);
+
+        try {
+            await loadTranslations();
+        } catch (error) {
+            console.error(error);
+        }
+    });
+});
+
+setLanguage(language);
+loadTranslations()
+    .catch(error => console.error(error))
+    .finally(loadQuestions);

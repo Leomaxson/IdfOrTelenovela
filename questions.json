@@ -93,13 +93,13 @@
   {
     "id": 8,
     "name": {
-      "en": "Name 8",
-      "pt-BR": "Nome 8"
+      "en": "Golden Handcuffs",
+      "pt-BR": "Algemas de Ouro"
     },
-    "answer": "IDF",
+    "answer": "Telenovela",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry."
+      "en": "Golden Handcuffs is a Brazilian telenovela that was produced and broadcast by RecordTV between March 3, 1969, and March 21, 1970. It was written by Benedito Ruy Barbosa and Dulce Santucci, under the general direction of Walter Avancini. It was the most-watched telenovela during its original run.",
+      "pt-BR": "Algemas de Ouro é uma telenovela brasileira produzida e exibida pela RecordTV entre 3 de março de 1969 e 21 de março de 1970. Foi escrita por Benedito Ruy Barbosa e Dulce Santucci, sob direção geral de Walter Avancini. Foi a telenovela mais assistida no período em que era exibida."
     },
     "image": "images/test_image.jpg"
   },

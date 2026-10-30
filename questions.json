@@ -132,13 +132,13 @@
   {
     "id": 11,
     "name": {
-      "en": "Name 11",
-      "pt-BR": "Nome 11"
+      "en": "Tilim",
+      "pt-BR": "Tilim"
     },
     "answer": "Telenovela",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
+      "en": "Tilim is a Brazilian telenovela that was produced and aired by RecordTV between November 30, 1970, and August 7, 1971. It was part of a wave of children’s telenovelas released following the success of *A Pequena Órfã* on TV Excelsior. The story follows Tilim, a boy who is placed in an orphanage. Because he is in the habit of stealing food, a bell is attached to his foot — which rings with every movement — leading to his nickname \"Tilim\".",
+      "pt-BR": "Tilim é uma telenovela brasileira produzida e exibida pela RecordTV entre 30 de novembro de 1970 e 7 de agosto de 1971. Veio na safra de novelas infantis lançadas após o sucesso de A Pequena Órfã na TV Excelsior. Conta a história de Tilim, que é colocado no orfanato. Acostumado a roubar para comer, colocam em seu pé um sino, o que o denuncia a qualquer movimento com o \"tilim\", daí o surgimento de seu apelido."
     },
     "image": "images/test_image.jpg"
   },

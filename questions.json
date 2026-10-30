@@ -141,5 +141,18 @@
       "pt-BR": "Tilim é uma telenovela brasileira produzida e exibida pela RecordTV entre 30 de novembro de 1970 e 7 de agosto de 1971. Veio na safra de novelas infantis lançadas após o sucesso de A Pequena Órfã na TV Excelsior. Conta a história de Tilim, que é colocado no orfanato. Acostumado a roubar para comer, colocam em seu pé um sino, o que o denuncia a qualquer movimento com o \"tilim\", daí o surgimento de seu apelido."
     },
     "image": "images/tilim.jpg"
+  },
+  {
+    "id": 12,
+    "name": {
+      "en": "Samson",
+      "pt-BR": "Sansão"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "The Samson Remote Controlled Weapon Station is a remote weapon system (RWS) that enables a variety of devices to be operated automatically or by remote control, including 5.56 mm, 7.62 mm, and 12.7 mm .50 BMG machine guns, 40 mm automatic grenade launchers, anti-tank missiles and observation pods.",
+      "pt-BR": "Sansão é uma sistema de armas operado remotamente (RWS) que permite a operação, de forma automática ou por controle remoto, de diversos dispositivos — incluindo metralhadoras de 5,56 mm, 7,62 mm e 12,7 mm (.50 BMG), lançadores automáticos de granadas de 40 mm, mísseis antitanque e módulos de observação."
+    },
+    "image": "images/sansao.jpg"
   }
 ]

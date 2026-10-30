@@ -106,15 +106,15 @@
   {
     "id": 9,
     "name": {
-      "en": "Name 9",
-      "pt-BR": "Nome 9"
+      "en": "Victory",
+      "pt-BR": "Vitória"
     },
     "answer": "Telenovela",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
+      "en": "Victory is a Brazilian telenovela that was produced and broadcast by Record between June 2, 2014, and March 20, 2015, spanning 208 episodes. It was written by Cristianne Fridman, with general direction by Edgard Miranda.",
+      "pt-BR": "Vitória é uma telenovela brasileira que foi produzida e exibida pela Record entre 2 de junho de 2014 e 20 de março de 2015 em 208 capítulos. Escrita por Cristianne Fridman, com direção geral de Edgard Miranda."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/vitoria.jpg"
   },
   {
     "id": 10,

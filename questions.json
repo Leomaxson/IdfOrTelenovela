@@ -119,15 +119,15 @@
   {
     "id": 10,
     "name": {
-      "en": "Name 10",
-      "pt-BR": "Nome 10"
+      "en": "Ten Commandments",
+      "pt-BR": "Dez Mandamentos"
     },
-    "answer": "IDF",
+    "answer": "Telenovela",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry."
+      "en": "*The Ten Commandments is a Brazilian telenovela that aired on Record from March 23, 2015, to July 4, 2016, spanning 242 episodes. It is an adaptation of four books from the Bible — Exodus, Leviticus, Numbers, and Deuteronomy — chronicling the life of Moses from his birth to his death.",
+      "pt-BR": "Os Dez Mandamentos é uma telenovela brasileira exibida pela Record de 23 de março de 2015 a 4 de julho de 2016 em 242 capítulos. É uma adaptação de quatro livros que compõem a Bíblia – Êxodo, Levítico, Números e Deuteronômio – narrando a história de Moisés desde o seu nascimento até sua morte."
     },
-    "image": "images/test_image.jpg"
+    "image": "images/dez_mandamentos.jpg"
   },
   {
     "id": 11,

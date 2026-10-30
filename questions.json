@@ -141,57 +141,5 @@
       "pt-BR": "Tilim é uma telenovela brasileira produzida e exibida pela RecordTV entre 30 de novembro de 1970 e 7 de agosto de 1971. Veio na safra de novelas infantis lançadas após o sucesso de A Pequena Órfã na TV Excelsior. Conta a história de Tilim, que é colocado no orfanato. Acostumado a roubar para comer, colocam em seu pé um sino, o que o denuncia a qualquer movimento com o \"tilim\", daí o surgimento de seu apelido."
     },
     "image": "images/tilim.jpg"
-  },
-  {
-    "id": 12,
-    "name": {
-      "en": "Name 12",
-      "pt-BR": "Nome 12"
-    },
-    "answer": "IDF",
-    "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry."
-    },
-    "image": "images/test_image.jpg"
-  },
-  {
-    "id": 13,
-    "name": {
-      "en": "Name 13",
-      "pt-BR": "Nome 13"
-    },
-    "answer": "Telenovela",
-    "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
-    },
-    "image": "images/test_image.jpg"
-  },
-  {
-    "id": 14,
-    "name": {
-      "en": "Name 14",
-      "pt-BR": "Nome 14"
-    },
-    "answer": "IDF",
-    "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for an IDF entry."
-    },
-    "image": "images/test_image.jpg"
-  },
-  {
-    "id": 15,
-    "name": {
-      "en": "Name 15",
-      "pt-BR": "Nome 15"
-    },
-    "answer": "Telenovela",
-    "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
-    },
-    "image": "images/test_image.jpg"
   }
 ]

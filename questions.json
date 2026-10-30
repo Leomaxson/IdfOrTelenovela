@@ -80,13 +80,13 @@
   {
     "id": 7,
     "name": {
-      "en": "Name 7",
-      "pt-BR": "Nome 7"
+      "en": "Promised Land",
+      "pt-BR": "Terra Prometida"
     },
     "answer": "Telenovela",
     "description": {
-      "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela.",
-      "pt-BR": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a placeholder description for a Brazilian telenovela."
+      "en": "The Promised Land is a Brazilian telenovela that aired on Record between July 5, 2016, and March 13, 2017, spanning 179 episodes. It was the 26th telenovela broadcast by the network since it resumed producing scripted drama in 2004. Serving as a continuation of The Ten Commandments, it tells the story of Joshua (Moses’ successor) and is inspired by the Book of Joshua.",
+      "pt-BR": "A Terra Prometida é uma telenovela brasileira exibida pela Record entre 5 de julho de 2016 e 13 de março de 2017, em 179 capítulos. Foi a 26ª novela exibida pela emissora desde a retomada da dramaturgia em 2004. É uma continuação de Os Dez Mandamentos, contando a história de Josué, o sucessor de Moisés, sendo inspirada no Livro de Josué."
     },
     "image": "images/test_image.jpg"
   },

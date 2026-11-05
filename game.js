@@ -103,6 +103,7 @@ let gameQuestions = [];
 let currentRound = 0;
 let score = 0;
 let answered = false;
+let answerWasCorrect = false;
 
 function shuffle(array) {
     const result = [...array];
@@ -184,6 +185,7 @@ function startGame() {
     currentRound = 0;
     score = 0;
     answered = false;
+    answerWasCorrect = false;
 
     endScreen.hidden = true;
     gameScreen.hidden = false;
@@ -226,6 +228,33 @@ function showQuestion() {
     );
 }
 
+function updateCurrentRoundTranslations() {
+    const question = gameQuestions[currentRound];
+
+    if (!question) {
+        return;
+    }
+
+    questionName.textContent = getLocalizedText(question.name);
+    nextButton.textContent = translate(
+        currentRound === TOTAL_ROUNDS - 1 ? "seeFinalScore" : "nextQuestion"
+    );
+
+    if (!answered) {
+        return;
+    }
+
+    resultHeading.textContent = answerWasCorrect
+        ? translate("correct")
+        : translate("incorrect", {
+            answer: translate(
+                question.answer === "IDF" ? "answerIdf" : "answerTelenovela"
+            )
+        });
+    revealDescription.textContent = getLocalizedText(question.description);
+    revealImage.alt = translate("revealImageAlt");
+}
+
 function submitAnswer(answer) {
     if (answered) {
         return;
@@ -235,6 +264,7 @@ function submitAnswer(answer) {
 
     const question = gameQuestions[currentRound];
     const isCorrect = answer === question.answer;
+    answerWasCorrect = isCorrect;
 
     if (isCorrect) {
         score++;
@@ -268,6 +298,7 @@ function submitAnswer(answer) {
     };
 
     revealImage.src = question.image;
+    revealImage.alt = translate("revealImageAlt");
 
     // If the image is cached, its load event may fire quickly.
     revealPanel.hidden = false;

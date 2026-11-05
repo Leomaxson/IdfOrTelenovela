@@ -13,6 +13,7 @@
   "loadingErrorHelp": "Execute o jogo em um servidor web local ou no GitHub Pages e verifique se o arquivo questions.json está disponível.",
   "correct": "Acertou!",
   "incorrect": "Não foi dessa vez! A resposta é {answer}.",
+  "revealImageAlt": "Imagem ilustrando a resposta",
   "nextQuestion": "Próxima pergunta",
   "seeFinalScore": "Ver resultado final",
   "gameOver": "Fim de jogo!",

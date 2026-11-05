@@ -154,5 +154,18 @@
       "pt-BR": "Sansão é uma sistema de armas operado remotamente (RWS) que permite a operação, de forma automática ou por controle remoto, de diversos dispositivos — incluindo metralhadoras de 5,56 mm, 7,62 mm e 12,7 mm (.50 BMG), lançadores automáticos de granadas de 40 mm, mísseis antitanque e módulos de observação."
     },
     "image": "images/sansao.jpg"
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Gideon's Chariots",
+      "pt-BR": "Carruagens de Gideão"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "On 4 May 2025, Israel's security cabinet approved a plan to expand its military offensive in the Gaza Strip. Codenamed Operation Gideon's Chariots, the offensive aimed to defeat Hamas, destroy its military and governing capabilities, and take control over three quarters of the Gaza Strip. The operation involved combined military force from land, air, and sea.",
+      "pt-BR": "Em 4 de maio de 2025, o gabinete de segurança de Israel aprovou um plano para expandir sua ofensiva militar na Faixa de Gaza com forças militares combinadas por terra, ar e mar. Com o codinome Operação Carruagens de Gideão, as Forças de Defesa de Israel visam derrotar o Hamas, destruir suas capacidades militares e de governança, e tomar o controle de toda a Faixa de Gaza."
+    },
+    "image": "images/carruagens_de_gideao.jpg"
   }
 ]

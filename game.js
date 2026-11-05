@@ -97,7 +97,8 @@ const finalScore = document.getElementById("final-score");
 const finalMessage = document.getElementById("final-message");
 const restartButton = document.getElementById("restart-button");
 
-let allQuestions = [];
+let idfQuestions = [];
+let telenovelaQuestions = [];
 let gameQuestions = [];
 let currentRound = 0;
 let score = 0;
@@ -152,7 +153,10 @@ async function loadQuestions() {
             throw new Error("The question data has an invalid format.");
         }
 
-        allQuestions = questions;
+        idfQuestions = questions.filter(question => question.answer === "IDF");
+        telenovelaQuestions = questions.filter(
+            question => question.answer === "Telenovela"
+        );
         startGame();
     } catch (error) {
         questionName.textContent = translate("loadingError");
@@ -166,8 +170,16 @@ async function loadQuestions() {
 }
 
 function startGame() {
-    // Shuffle once and take the first 10 unique entries.
-    gameQuestions = shuffle(allQuestions).slice(0, TOTAL_ROUNDS);
+    const numberOfIdfQuestions = Math.floor(Math.random() * 3) + 4;
+    const numberOfTelenovelaQuestions = TOTAL_ROUNDS - numberOfIdfQuestions;
+
+    const shuffledIdfQuestions = shuffle(idfQuestions);
+    const shuffledTelenovelaQuestions = shuffle(telenovelaQuestions);
+
+    gameQuestions = shuffle([
+        ...shuffledIdfQuestions.slice(0, numberOfIdfQuestions),
+        ...shuffledTelenovelaQuestions.slice(0, numberOfTelenovelaQuestions)
+    ]);
 
     currentRound = 0;
     score = 0;

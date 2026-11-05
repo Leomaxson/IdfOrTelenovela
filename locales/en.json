@@ -1,7 +1,7 @@
 
 {
   "gameTitle": "IDF or Telenovela?",
-  "subtitle": "IDF military operation, vehicle or system — or Brazilian TV drama?",
+  "subtitle": "Military operation, vehicle or system — or Brazilian TV drama?",
   "roundLabel": "Round {current} of {total}",
   "scoreLabel": "Score: {score}",
   "questionHeading": "What do you think?",
@@ -13,6 +13,7 @@
   "loadingErrorHelp": "Please run the game through a local web server or GitHub Pages, and check that questions.json is available.",
   "correct": "Correct!",
   "incorrect": "Not quite! The answer is {answer}.",
+  "revealImageAlt": "Image illustrating the answer",
   "nextQuestion": "Next question",
   "seeFinalScore": "See final score",
   "gameOver": "Game over!",

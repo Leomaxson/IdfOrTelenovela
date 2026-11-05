@@ -167,5 +167,18 @@
       "pt-BR": "Em 4 de maio de 2025, o gabinete de segurança de Israel aprovou um plano para expandir sua ofensiva militar na Faixa de Gaza com forças militares combinadas por terra, ar e mar. Com o codinome Operação Carruagens de Gideão, as Forças de Defesa de Israel visam derrotar o Hamas, destruir suas capacidades militares e de governança, e tomar o controle de toda a Faixa de Gaza."
     },
     "image": "images/carruagens_de_gideao.jpg"
+  },
+  {
+    "id": 14,
+    "name": {
+      "en": "Delilah",
+      "pt-BR": "Dalila"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "The Delilah is a cruise missile developed by Israel Military Industries (IMI) designed to target moving and re-locatable targets. Unlike a typical cruise missile, which is locked onto a target prior to launch, the Delilah missile is able to loiter and surveil an area before a remote weapon systems officer, usually from the launching fighter aircraft, identifies the specific target of the attack.",
+      "pt-BR": "Dalila é um míssil de cruzeiro desenvolvido em Israel projetado para atingir alvos móveis. Ao contrário de um míssil de cruzeiro convencional — que é travado em um alvo antes do lançamento — o míssil Dalila tem a capacidade de permanecer em voo sobre uma área, realizando vigilância, até que um operador de sistemas de armas (geralmente a bordo da aeronave que fez o lançamento) identifique o alvo específico do ataque."
+    },
+    "image": "images/dalila.jpg"
   }
 ]

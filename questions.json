@@ -180,5 +180,18 @@
       "pt-BR": "Dalila é um míssil de cruzeiro desenvolvido em Israel projetado para atingir alvos móveis. Ao contrário de um míssil de cruzeiro convencional — que é travado em um alvo antes do lançamento — o míssil Dalila tem a capacidade de permanecer em voo sobre uma área, realizando vigilância, até que um operador de sistemas de armas (geralmente a bordo da aeronave que fez o lançamento) identifique o alvo específico do ataque."
     },
     "image": "images/dalila.jpg"
-  }
+  },
+  {
+    "id": 15,
+    "name": {
+      "en": "Jericho",
+      "pt-BR": "Jericó"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "Jericho is a general designation given to a family of deployed ballistic missiles developed by Israel since the 1960s. It is believed that the Jericho III is a nuclear-armed ICBM that entered service in 2011, having a payload of 1,000 to 1,300 kg that could be a single 750 kg (150–400 kiloton) nuclear warhead. In 2019, a test was conducted by Israel of the Jericho IV, but its specifications remain undisclosed.",
+      "pt-BR": "Jericho é uma designação dada a uma família de mísseis balísticos desenvolvidos por Israel desde a década de 1960. Acredita-se que o Jericho III seja um míssil balístico intercontinental (ICBM) com capacidade nuclear, que entrou em serviço em 2011, possuindo uma carga útil de 1.000 a 1.300 kg — que pode consistir em uma ogiva nuclear de 750 kg. Israel realizou testes com o Jericho IV, mas suas especificações não são divulgadas."
+    },
+    "image": "images/jerico.jpg"
+  },
 ]

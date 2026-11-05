@@ -73,6 +73,7 @@ async function loadTranslations() {
 
     translations = await response.json();
     applyTranslations();
+    updateCurrentRoundTranslations();
 }
 
 const gameScreen = document.getElementById("game-screen");
@@ -197,6 +198,7 @@ function showQuestion() {
     const question = gameQuestions[currentRound];
 
     answered = false;
+    answerWasCorrect = false;
 
     roundLabel.textContent =
         translate("roundLabel", {
@@ -235,6 +237,11 @@ function updateCurrentRoundTranslations() {
         return;
     }
 
+    roundLabel.textContent = translate("roundLabel", {
+        current: currentRound + 1,
+        total: TOTAL_ROUNDS
+    });
+    scoreLabel.textContent = translate("scoreLabel", { score });
     questionName.textContent = getLocalizedText(question.name);
     nextButton.textContent = translate(
         currentRound === TOTAL_ROUNDS - 1 ? "seeFinalScore" : "nextQuestion"

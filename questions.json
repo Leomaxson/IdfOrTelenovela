@@ -180,5 +180,44 @@
       "pt-BR": "Dalila é um míssil de cruzeiro desenvolvido em Israel projetado para atingir alvos móveis. Ao contrário de um míssil de cruzeiro convencional — que é travado em um alvo antes do lançamento — o míssil Dalila tem a capacidade de permanecer em voo sobre uma área, realizando vigilância, até que um operador de sistemas de armas (geralmente a bordo da aeronave que fez o lançamento) identifique o alvo específico do ataque."
     },
     "image": "images/dalila.jpg"
-  }
+  },
+  {
+    "id": 15,
+    "name": {
+      "en": "Jericho",
+      "pt-BR": "Jericó"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "Jericho is a general designation given to a family of deployed ballistic missiles developed by Israel since the 1960s. It is believed that the Jericho III is a nuclear-armed ICBM that entered service in 2011, having a payload of 1,000 to 1,300 kg that could be a single 750 kg (150–400 kiloton) nuclear warhead. In 2019, a test was conducted by Israel of the Jericho IV, but its specifications remain undisclosed.",
+      "pt-BR": "Jericho é uma designação dada a uma família de mísseis balísticos desenvolvidos por Israel desde a década de 1960. Acredita-se que o Jericho III seja um míssil balístico intercontinental (ICBM) com capacidade nuclear, que entrou em serviço em 2011, possuindo uma carga útil de 1.000 a 1.300 kg — que pode consistir em uma ogiva nuclear de 750 kg. Israel realizou testes com o Jericho IV, mas suas especificações não são divulgadas."
+    },
+    "image": "images/jerico.jpg"
+  },
+  {
+    "id": 16,
+    "name": {
+      "en": "Peace for Galilee",
+      "pt-BR": "Paz na Galiléia"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "The 1982 Lebanon War, also called the Second Israeli invasion of Lebanon, began on 6 June 1982, when Israel invaded southern Lebanon. The Israeli military operation, codenamed Operation Peace for Galilee, was launched after gunmen from the Abu Nidal Organization attempted to assassinate Shlomo Argov, Israel's ambassador to the United Kingdom.",
+      "pt-BR": "A Guerra do Líbano de 1982, ou Segunda Invasão israelense do Líbano, começou quando Israel invadiu o sul do Líbano. Chamada em Israel de Operação Paz na Galiléia começou em 6 de junho de 1982, oficialmente, com o objetivo de fazer cessar os ataques dos palestinos da Organização para a Libertação da Palestina (OLP), baseada no Líbano. Após dois meses de intensos bombardeios israelenses, foi negociada a retirada da OLP da capital libanesa."
+    },
+    "image": "images/paz_na_galileia.jpg"
+  },
+  {
+    "id": 17,
+    "name": {
+      "en": "Guardian of the Walls",
+      "pt-BR": "Guardião das Muralhas"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "The 2021 Israel–Palestine crisis was an escalation of violence triggered by Palestinian protests against planned evictions in Sheikh Jarrah, East Jerusalem, and clashes between Israeli police and Palestinians at Al-Aqsa Mosque. Hamas subsequently launched rockets into Israel, prompting Israel to launch Operation Guardian of the Walls, a series of airstrikes on Gaza in response. A ceasefire was reached on May 21, 2021.",
+      "pt-BR": "A crise Israel-Palestina de 2021 foi uma escalada da violência desencadeada por protestos palestinos contra despejos planejados em Sheikh Jarrah, Jerusalém Oriental, e confrontos entre a polícia israelense e palestinos na Mesquita de Al-Aqsa. Posteriormente, o Hamas lançou foguetes contra Israel, levando o país a iniciar a Operação Guardião das Muralhas, uma série de ataques aéreos contra Gaza em resposta. Um cessar-fogo foi alcançado em 21 de maio de 2021."
+    },
+    "image": "images/guardiao_das_muralhas.jpg"
+  },
 ]

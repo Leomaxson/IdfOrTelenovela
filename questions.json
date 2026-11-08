@@ -194,4 +194,17 @@
     },
     "image": "images/jerico.jpg"
   },
+  {
+    "id": 16,
+    "name": {
+      "en": "Peace for Galilee",
+      "pt-BR": "Paz na Galiléia"
+    },
+    "answer": "IDF",
+    "description": {
+      "en": "The 1982 Lebanon War, also called the Second Israeli invasion of Lebanon, began on 6 June 1982, when Israel invaded southern Lebanon. The Israeli military operation, codenamed Operation Peace for Galilee, was launched after gunmen from the Abu Nidal Organization attempted to assassinate Shlomo Argov, Israel's ambassador to the United Kingdom.",
+      "pt-BR": "A Guerra do Líbano de 1982, ou Segunda Invasão israelense do Líbano, começou quando Israel invadiu o sul do Líbano. Chamada em Israel de Operação Paz na Galiléia começou em 6 de junho de 1982, oficialmente, com o objetivo de fazer cessar os ataques dos palestinos da Organização para a Libertação da Palestina (OLP), baseada no Líbano. Após dois meses de intensos bombardeios israelenses, foi negociada a retirada da OLP da capital libanesa."
+    },
+    "image": "images/paz_na_galileia.jpg"
+  },
 ]

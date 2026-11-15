@@ -219,5 +219,83 @@
       "pt-BR": "A crise Israel-Palestina de 2021 foi uma escalada da violência desencadeada por protestos palestinos contra despejos planejados em Sheikh Jarrah, Jerusalém Oriental, e confrontos entre a polícia israelense e palestinos na Mesquita de Al-Aqsa. Posteriormente, o Hamas lançou foguetes contra Israel, levando o país a iniciar a Operação Guardião das Muralhas, uma série de ataques aéreos contra Gaza em resposta. Um cessar-fogo foi alcançado em 21 de maio de 2021."
     },
     "image": "images/guardiao_das_muralhas.jpg"
+  },
+  {
+    "id": 18,
+    "name": {
+      "en": "Jezebel",
+      "pt-BR": "Jezabel"
+    },
+    "answer": "Telenovela",
+    "description": {
+      "en": "Jezebel is a Brazilian biblical telenovela produced by RecordTV in partnership with Formata Produções. It premiered on April 23, 2019, and ended on August 12, 2019, with 80 episodes. The story follows the Phoenician princess Jezebel, who marries King Ahab of Israel and attempts to impose the worship of pagan gods upon the Israelites.",
+      "pt-BR": "Jezabel é uma telenovela bíblica brasileira produzida pela RecordTV em parceria com a Formata Produções. Estreou em 23 de abril de 2019 e terminou em 12 de agosto de 2019, com 80 capítulos. A história acompanha a princesa fenícia Jezabel, que se casa com o rei Acabe de Israel e tenta impor ao povo israelita a adoração de deuses pagãos."
+    },
+    "image": "images/jezabel.jpg"
+  },
+  {
+    "id": 19,
+    "name": {
+      "en": "The Price of Glory",
+      "pt-BR": "O Preço da Glória"
+    },
+    "answer": "Telenovela",
+    "description": {
+      "en": "The Price of Glory is a Brazilian telenovela produced and broadcast by TV Record in 1961. It belongs to the early period of Brazilian television drama, when Record was expanding its telenovela productions. The production was directed by Ciro Bassini.",
+      "pt-BR": "O Preço da Glória é uma telenovela brasileira produzida e exibida pela TV Record em 1961. Pertence à primeira fase da teledramaturgia brasileira, período em que a Record expandia suas produções de novelas. A produção foi dirigida por Ciro Bassini."
+    },
+    "image": "images/o_preco_da_gloria.jpg"
+  },
+  {
+    "id": 20,
+    "name": {
+      "en": "Mortal Sin",
+      "pt-BR": "Pecado Mortal"
+    },
+    "answer": "Telenovela",
+    "description": {
+      "en": "Mortal Sin is a Brazilian telenovela produced and broadcast by RecordTV. Created by Carlos Lombardi, it premiered on September 25, 2013, and ended on May 30, 2014, with 176 episodes. Set primarily in Rio de Janeiro during the late 1970s, the story explores the power struggle between illegal gambling operators and drug traffickers competing for control of the city's impoverished neighborhoods.",
+      "pt-BR": "Pecado Mortal é uma telenovela brasileira produzida e exibida pela RecordTV. Escrita por Carlos Lombardi, estreou em 25 de setembro de 2013 e terminou em 30 de maio de 2014, com 176 capítulos. Ambientada principalmente no Rio de Janeiro do final da década de 1970, a história explora a disputa de poder entre contraventores do jogo do bicho e traficantes de drogas pelo controle das comunidades pobres da cidade."
+    },
+    "image": "images/pecado_mortal.jpg"
+  },
+  {
+    "id": 21,
+    "name": {
+      "en": "Lives at Stake",
+      "pt-BR": "Vidas em Jogo"
+    },
+    "answer": "Telenovela",
+    "description": {
+      "en": "Lives at Stake is a Brazilian telenovela produced and broadcast by RecordTV. Written by Cristianne Fridman, it premiered on May 3, 2011, and ended on April 9, 2012, with 243 episodes. The story follows a group of ten friends from humble backgrounds who regularly participate in a lottery pool and eventually win a fortune of approximately 50 million dollars. As their lives change dramatically, greed, jealousy, betrayal, murder, and personal conflicts threaten their friendship and their newfound wealth.",
+      "pt-BR": "Vidas em Jogo é uma telenovela brasileira produzida e exibida pela RecordTV. Escrita por Cristianne Fridman, estreou em 3 de maio de 2011 e terminou em 9 de abril de 2012, com 243 capítulos. A história acompanha um grupo de dez amigos de origem humilde que participam regularmente de um bolão da loteria e acabam ganhando uma fortuna de aproximadamente 200 milhões de reais. À medida que suas vidas mudam drasticamente, ganância, ciúmes, traições, assassinatos e conflitos pessoais ameaçam tanto a amizade quanto a nova fortuna do grupo."
+    },
+    "image": "images/vidas_em_jogo.jpg"
+  },
+  {
+    "id": 22,
+    "name": {
+      "en": "Years of Storm",
+      "pt-BR": "Anos de Tormenta"
+    },
+    "answer": "Telenovela",
+    "description": {
+      "en": "Years of Storm is a Brazilian telenovela produced and broadcast by TV Record in 1958. Directed by Ciro Bassini, the production was based on a literary work by Scottish author A. J. Cronin. It belongs to the early period of Brazilian television drama, when literary adaptations were frequently used as the foundation for telenovela productions.",
+      "pt-BR": "Anos de Tormenta é uma telenovela brasileira produzida e exibida pela TV Record em 1958. Dirigida por Ciro Bassini, a produção foi baseada em uma obra literária do escritor escocês A. J. Cronin. Pertence à primeira fase da teledramaturgia brasileira, período em que adaptações literárias eram frequentemente utilizadas como base para produções de novelas."
+    },
+    "image": "images/anos_de_tormenta.jpg"
+  },
+  {
+    "id": 23,
+    "name": {
+      "en": "Flames of Life",
+      "pt-BR": "Chamas da Vida"
+    },
+    "answer": "Telenovela",
+    "description": {
+      "en": "Flames of Life is a Brazilian telenovela produced and broadcast by RecordTV. Written by Cristianne Fridman, it premiered on July 8, 2008, and ended on April 28, 2009, with 253 episodes. The story revolves around Pedro, a firefighter who lives in the outskirts of Rio de Janeiro and struggles to support his three younger siblings. His life changes when he meets Carolina, a wealthy advertising professional whom he rescues from a fire.",
+      "pt-BR": "Chamas da Vida é uma telenovela brasileira produzida e exibida pela RecordTV. Escrita por Cristianne Fridman, estreou em 8 de julho de 2008 e terminou em 28 de abril de 2009, com 253 capítulos. A história gira em torno de Pedro, um bombeiro que vive na periferia do Rio de Janeiro e luta para sustentar seus três irmãos mais novos. Sua vida muda quando conhece Carolina, uma publicitária rica que ele salva de um incêndio."
+    },
+    "image": "images/chamas_da_vida.jpg"
   }
 ]
